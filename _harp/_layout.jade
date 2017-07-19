@@ -1,0 +1,14 @@
+doctype
+html
+  head
+    title noah
+    
+    script(src="https://use.typekit.net/bbs7bbe.js")
+    script.
+      try{Typekit.load({ async: true });}catch(e){}
+  
+    link(rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css")
+
+    link(rel="stylesheet" href="/main.css")
+  body
+    != yield
