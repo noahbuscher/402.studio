@@ -1,14 +1,17 @@
 doctype
 html
   head
-    title noah
+    title Noah
     
+    // Fonts
     script(src="https://use.typekit.net/bbs7bbe.js")
     script.
       try{Typekit.load({ async: true });}catch(e){}
   
+    // Vendor
     link(rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css")
 
-    link(rel="stylesheet" href="/main.css")
+    // Styles
+    link(rel="stylesheet" href="./main.css")
   body
     != yield
