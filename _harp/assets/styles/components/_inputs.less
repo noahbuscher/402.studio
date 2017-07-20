@@ -1,4 +1,4 @@
-.btn {
+input[type="email"] {
   padding: 10px;
   font-family: @base-mono;
   font-size: 0.8em;
@@ -6,7 +6,11 @@
   letter-spacing: 0.3px;
   font-weight: 400;
   border-radius: 5px;
-  background: @light-purple;
-  color: white;
-  border: 0;
+  border: 1px solid @light-purple;
+  width: 100%;
+  margin: 30px 0 10px 0;
+}
+
+::-webkit-input-placeholder {
+  color: @light-purple;
 }

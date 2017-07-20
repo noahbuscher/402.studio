@@ -11,15 +11,16 @@ div.nav
       a(href="#") rates
     li.link 
       span.num 03
-      a(href="#") contact
+      a(href="#") stay informed
 
 div.hero
-  div.title
-    span.title-text
-      | Studio 402 is an affordable space for creatives in Lincoln to take photos
-      | and meet with clients. But we're more than just a space: we're a
-      | community.
-    hr.short
+  div.hero-holder
+    div.title
+      span.title-text
+        | Studio 402 is an affordable space for creatives in Lincoln to take photos
+        | and meet with clients. But we're more than just a space: we're a
+        | community. Coming soon.
+      hr.short
     
 div.wrapper
   div.wrapper-inner
@@ -41,14 +42,13 @@ div.wrapper
           | Studio 402 is owned by two Lincoln photographers, Noah Buscher and Amanda Leise,
           | and we know what photographers need to have a sucessful shoot. That's why we provide
           | studio lighting, backdrops, props, equiptment, and, of course, coffee! So what are
-          | you waiting for?&nbsp;
-          a.visible(href="#") Grab a membership!
- 
+          | you waiting for?
+
 div.wrapper
   div.wrapper-inner
     div.row
       div.col-lg-12.col-xs-12
-        h1.marginless Rates
+        h1.marginless Rates.
         p
           | We get it that photographers have it hard: you're an artist, manage your
           | own business, and often even end up being a taxi driver for you clients.
@@ -74,16 +74,19 @@ div.wrapper
 div.wrapper
   div.wrapper-inner
     div.row
+      div.col-xs-12
+        h1.marginless Stay Informed.
       div.col-md-6.col-xs-12
-        h1.marginless Contact
         p
-          | Have any questions about the space? We're here to help... drop
-          | us a line anytime!
-      div.col-md-offset-2.col-md-4.col-xs-offset-0.col-xs-12
-        a.simple(href="#") Email
-        a.simple(href="#") Instagram
-        a.simple(href="#") GitHub
-
+          | Want to keep updated with Studio 402? We're launching soon.
+          | Like really soon. Sign up to be notified when we open! We'll
+          | also send a discount your way while we're at it.
+      div.col-md-6.col-xs-12
+        form(action="https://noahbuscher.us8.list-manage.com/subscribe/post" method="POST")
+          input(type="hidden" name="u" value="03691d93821456be1e18d5854")
+          input(type="hidden" name="id" value="a0dc8ebbb4")
+          input(type="email" name="MERGE0" tabindex="-1" value="" placeholder="youremail@gmail.com" id="MERGE0")
+          input.btn(type="submit" value="Submit")
 footer
   div.footer-links
     div.row
