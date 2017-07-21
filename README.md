@@ -1,6 +1,6 @@
 # Studio 402
 
-The studio's online home for now.
+The studios' online home for now.
 
 ## Development
 
