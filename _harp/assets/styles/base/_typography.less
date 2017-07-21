@@ -14,7 +14,7 @@ h1 {
 
 h2 {
   text-align: left;
-  font-size: 2em;
+  font-size: 1em;
   line-height: 1em;
   letter-spacing: 1px;
   font-weight: 700;
@@ -26,14 +26,22 @@ h2 {
   }
 }
 
-h3 {
+h3, .big {
+  font-family: @base-mono;
   text-align: left;
-  font-size: 2em;
+  font-size: 1.9em;
   line-height: 1em;
   letter-spacing: 1px;
   font-weight: 700;
   color: @pink;
+  text-decoration: none;
+  margin: 20px 0;
+}
 
+a.big {
+  &:hover {
+    text-decoration: line-through;
+  }
 }
 
 h4 {
@@ -110,6 +118,10 @@ strong {
 
 .marginless {
   margin: 0;
+}
+
+.margined {
+  margin-top: 20px;
 }
 
 .text--left {
