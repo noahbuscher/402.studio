@@ -61,39 +61,20 @@
 
 .hero {
   background: @purple;
-  min-height: 100%;
+  height: 100%;
+  min-height: 650px;
   position: relative;
   display: flex;
   align-items: center;
   align-content: center;
   justify-content: center;
-  padding: 120px 50px;
   box-sizing: border-box;
+  padding: 50px;
 
-  .hero-holder {
+  .hero-inner {
     max-width: 800px;
-
-    .title {
-      display: block;
-
-      .title-text {
-        text-align: left;
-        font-size: 2em;
-        line-height: 1em;
-        letter-spacing: 1px;
-        font-weight: 700;
-        color: @pink;
-      }
-    }
-
-    .actions {
-      margin-top: 30px;
-    }
-
-    .description {
-      text-align: center;
-      color: @white !important;
-    }
+    margin: auto;
+    box-sizing: border-box;
   }
 }
 

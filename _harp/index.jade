@@ -14,21 +14,22 @@ div.nav
       a(href="#signup") sign up
 
 div.hero
-  div.hero-holder
-    div.title
-      span.title-text
-        | <span class="name">Studio <span class="counter" id="counter">402</span></span> is an affordable space for creatives in Lincoln to take photos
-        | and meet with clients. But we're more than just a space... we're a
-        | community.
-      hr.short
+  div.hero-inner
+    div.row
+      div.col-xs-12
+        h1
+          | <span class="name">Studio <span class="counter" id="counter">402</span></span> is an affordable space for creatives in Lincoln to take photos
+          | and meet with clients. But we're more than just a space... we're a
+          | community.
+        hr.short
     
 div.wrapper#about
   div.wrapper-inner
     div.row
       div.col-xs-12
         h2.marginless.text--purple
-          | We are focused on providing an accessible place for beginner to expert
-          | photographers to use.
+          | We are focused on providing an accessible studio for beginners and
+          | photography experts alike to inhabit.
         hr.short.hr--purple
       div.col-md-6.col-xs-12
         p
@@ -48,7 +49,7 @@ div.wrapper#rates
   div.wrapper-inner
     div.row
       div.col-lg-12.col-xs-12
-        h1.marginless Rates.
+        h2.marginless.section Rates.
         p
           | We get it that photographers have it hard: you're an artist, manage your
           | own business, and often even end up being a taxi driver for you clients.
@@ -56,16 +57,16 @@ div.wrapper#rates
           | completely transparent.
     div.row
       div.col-md-6.col-xs-12
-        h2 Per Hour
-        h3 $20/hr
+        h3 Per Hour
+        h4 $20/hr
         p
           | Need a studio space to snap a few portraits? We got your back. Just block
           | off the time in the studio online and submit payment via PayPal! It's really
           | that easy.
       
       div.col-md-6.col-xs-12
-        h2 Monthly
-        h3 $50/month
+        h3 Monthly
+        h4 $50/month
         p
           | Think you're gonna need the space quite a bit? Snag a monthly membership
           | to get access to the space 9-5! Just be sure to block off the time you're
@@ -75,7 +76,7 @@ div.wrapper#signup
   div.wrapper-inner
     div.row
       div.col-xs-12
-        h1.marginless Let's do this.
+        h2.marginless.section Let's do this.
       div.col-md-6.col-xs-12
         p
           | Want to start using Studio 402? We're opening in just a few days. Until
@@ -86,7 +87,10 @@ footer
   div.footer-links
     div.row
       div.col-md-4.col-xs-12
-        small.text--white Studio 402
+        div
+          small.text--white Studio 402
+        div
+          small.text--white Opening August 2017
       div.col-md-4.col-xs-12
         small.text--white &copy; Studio 402
       div.col-md-4.col-xs-12
