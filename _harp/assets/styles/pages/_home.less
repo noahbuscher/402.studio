@@ -35,16 +35,6 @@
 
   .nav-links {
     .link {
-      .num {
-        font-family: @base-mono;
-        font-size: 0.8em;
-        line-height: 1.5em;
-        letter-spacing: 0.3px;
-        font-weight: 400;
-        color: @pink;
-        margin-right: 10px
-      }
-
       a {
         font-family: @base-mono;
         font-size: 0.8em;
@@ -54,6 +44,10 @@
         font-weight: 400;
         color: @pink;
         text-decoration: none;
+      }
+
+      &:hover {
+        text-decoration: line-through;
       }
     }
   }
