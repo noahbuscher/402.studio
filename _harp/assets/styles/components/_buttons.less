@@ -9,4 +9,12 @@
   background: @pink;
   color: white;
   border: 0;
+  border: 1px solid @pink;
+  transition: all @base-transition-time;
+
+  &:hover {
+    background: transparent;
+    color: @pink;
+    transition: all @base-transition-time;
+  }
 }
