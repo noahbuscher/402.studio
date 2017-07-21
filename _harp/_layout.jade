@@ -19,5 +19,19 @@ html
 
     // Styles
     link(rel="stylesheet" href="./main.css")
+    
+    script.
+      window.onload = function() {
+        var count = 000;
+        document.getElementById("counter").innerHTML = count;
+        
+        var countup = setInterval(function(){
+          count++;
+          document.getElementById("counter").innerHTML = ('00' + count).slice(-3);
+          console.log(count);
+          
+          if (count == 402) clearInterval(countup);
+        }, 2)
+      };
   body
     != yield
